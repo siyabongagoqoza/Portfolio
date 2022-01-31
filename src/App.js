@@ -9,7 +9,7 @@ import Image from './images/unsplashbluebackground.jpg';
 const styles = {
   paperContainer: {
     backgroundImage: `url(${Image})`,
-    height: window.innerHeight + 'px'
+    // height: window.innerHeight + 'px'
   }
 }
 
@@ -29,6 +29,7 @@ function App() {
             <h1 className='title'>Game Developer and Software Engineer</h1>
         </div>
     </Paper>
+
   );
 }
 
