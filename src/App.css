@@ -1,4 +1,11 @@
-.App {
-  text-align: center;
-  background-image: url("./images/unsplashbluebackground.jpg");
+.body {
+    display: flex;
+    margin-left: 5%;
+}
+
+.title {
+    color: white;
+    font-size: 390%;
+    margin-top: 10%;
+    width: 50%;
 }
