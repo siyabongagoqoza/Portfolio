@@ -1,6 +1,7 @@
 .body {
     display: flex;
     margin-left: 5%;
+    flex-direction: column;
 }
 
 .title {
@@ -9,3 +10,9 @@
     margin-top: 10%;
     width: 50%;
 }
+
+.aboutme {
+    font-size: 150%;
+    color: seashell;
+}
+

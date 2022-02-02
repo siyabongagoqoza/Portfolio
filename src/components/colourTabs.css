@@ -1,9 +1,11 @@
-.navbox {
+#navbox {
     display: flex;
     justify-content: flex-end;
+    padding-right: 60px;
     
 }
 #labeltab {
     color: white;
 }
+
 

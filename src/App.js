@@ -27,6 +27,8 @@ function App() {
         </div>
         <div className='body'>
             <h1 className='title'>Game Developer and Software Engineer</h1>
+
+            <p className='aboutme'>I am a junior software developer and a game developer, I work on frontend and backend</p>
         </div>
     </Paper>
 
