@@ -4,6 +4,8 @@ import ColorTabs from './components/colourTabs';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { Paper } from '@mui/material';
 import Image from './images/unsplashbluebackground.jpg';
+import CubeImg from './images/cubetech.png';
+import { merge, tada, flip} from 'react-animations';
 
 
 const styles = {
@@ -12,6 +14,8 @@ const styles = {
     // height: window.innerHeight + 'px'
   }
 }
+
+const tadaFlip = merge(tada, flip);
 
 function App() {
   return (
@@ -27,8 +31,14 @@ function App() {
         </div>
         <div className='body'>
             <h1 className='title'>Game Developer and Software Engineer</h1>
+            <div className='imagedescription'>
+              <p className='aboutme'>
+              For 2 years i have worked and upskilled myself as a junior software developer and as a digital assistance for two non profit organizations in an internship to have the approppriate skills to bring a clients vision to life.</p>
+              <div data-aos="flip-left" id="cubediv">
+                <img src={CubeImg}/>
+              </div>
 
-            <p className='aboutme'>I am a junior software developer and a game developer, I work on frontend and backend</p>
+            </div>
         </div>
     </Paper>
 

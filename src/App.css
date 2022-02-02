@@ -14,5 +14,9 @@
 .aboutme {
     font-size: 150%;
     color: seashell;
+    width: 50%;
+    margin-bottom: 10%;
 }
-
+#cubediv {
+    margin-top: -14%;
+}
