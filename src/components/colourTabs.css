@@ -1,10 +1,12 @@
 #navbox {
     display: flex;
     justify-content: flex-end;
+    position: fixed;
     
 }
 #labeltab {
     color: white;
+    font-size: 110%;
 }
 
 .imagedescription {
