@@ -25,12 +25,19 @@ export default function NavTabs() {
   };
 
   return (
+    <div className='wholenav'>
+    <Box id='navboxName' sx={{ width: '300%' }}>
+      <Tabs value={value}  onChange={handleChange} aria-label="nav tabs example" >
+        <LinkTab id="myname" label="Siyabonga Goqoza" href="#aboutnav" />
+      </Tabs>
+    </Box>        
     <Box id='navbox' sx={{ width: '100%' }}>
-      <Tabs value={value}  onChange={handleChange} aria-label="nav tabs example" centered>
-        <LinkTab id="labeltab" label="Projects" href="#aboutnav" />
+      <Tabs value={value}  onChange={handleChange} aria-label="nav tabs example" >
+        <LinkTab id="labeltab" label="Projects" href="#projects" />
         <LinkTab id="labeltab" label="Skills" href="/trash" />
         <LinkTab id="labeltab" label="Contact Me" href="/spam" />
       </Tabs>
     </Box>
+    </div>
   );
 }

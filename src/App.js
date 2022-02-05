@@ -6,6 +6,7 @@ import CubeImg from './images/cubetech.png';
 import 'animate.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ChaosImg from './images/chaos.png';
 
 
 function App() {
@@ -35,28 +36,21 @@ function App() {
                 <div id="cubediv">
                   <a href='#projects'><img src={CubeImg} className='cubeimg' alt=''/></a>
                 </div>
-
               </div>
-             
           </div>
-          
       </div>
       <div id='projects'>
-              <h1 data-aos="fade-right">Hello there piece of sheet </h1>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>
-              <p>Lorem ipsumszjgesalfhds  sfahdsflkajsgdsfasdjgdsgalkj ajklgadjfdskj alkdsjhdskfadfkjfal ldfhak</p>  
+              <h1 data-aos="fade-right" className='titleP'>My Projects</h1>
+
+              <div className='project'>
+                <div className='projectImage'>
+                  <img src={ChaosImg} className='chaosimg' alt=''/>
+                </div>
+                <div className='pDescription'>
+                    
+                </div>
+              </div>
+
       </div>      
   </div>
   );

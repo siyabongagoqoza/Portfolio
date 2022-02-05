@@ -1,12 +1,35 @@
 #navbox {
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
+    /* display: flex; */
+    justify-content: end;
+    margin-left: -10%;
     
+}
+#navboxName {
+    /* display: flex; */
+    justify-content: start;
+    /* margin-left: -18%; */
+}
+.wholenav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+    /* margin-left: %; */
+    /* justify-content: space-between; */
+    width: 98%;
+
 }
 #labeltab {
     color: white;
     font-size: 110%;
+    /* background-color: rgba(35, 136, 237, 0.618); */
+}
+
+#myname {
+    color: white;
+    font-size: 110%;
+    /* background-color: rgba(35, 136, 237, 0.618); */
+   
 }
 
 .imagedescription {

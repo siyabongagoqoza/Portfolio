@@ -22,25 +22,37 @@
     font-size: 150%;
     color: seashell;
     width: 50%;
-    margin-bottom: 10%;
 }
 #cubediv {
     margin-top: -14%;
+    z-index: 0;
 
     
 }
 
 #projects {
-  background-color: white;
+  background-color: rgb(64, 104, 130);
   height: 1000px;
+  margin-top: -2.2%;
+}
+.titleP {
+  margin-left: 5%;
+  padding-top: 5%;
+}
+.project {
+  margin-left: 5%;
+
 }
 
-img:hover {
+.cubeimg:hover {
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand;
     animation-iteration-count: infinite;
     animation-duration: 2s;
-
+}
+.chaosimg {
+  width: 30%;
+  height: auto;
 }
 
 @keyframes rubberBand {
